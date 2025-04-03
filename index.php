@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Volume of a Pyramid, in PHP" />
+  <meta name="description" content="Volume of a Sphere, in PHP" />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Isaac Ip" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +14,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
   <link rel="manifest" href="site.webmanifest" />
-  <title>Volume of a Pyramid, in PHP</title>
+  <title>Volume of a Sphere, in PHP</title>
 </head>
 
 <body>
@@ -27,10 +27,10 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/pyramid.png" alt="pyramid image" width="250" />
+        <img src="./images/volume-of-sphere.png" alt="sphere image" width="250" />
       </div>
       <br />
-      <div class="page-content">Please enter dimensions of the pyramid:
+      <div class="page-content">Please enter dimensions of the sphere:
         <br>
         <br>
         Formula:
