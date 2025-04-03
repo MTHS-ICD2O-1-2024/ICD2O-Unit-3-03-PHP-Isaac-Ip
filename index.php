@@ -22,7 +22,7 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Volume of a Pyramid, in PHP</span>
+        <span class="mdl-layout-title">Volume of a Sphere, in PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
@@ -30,31 +30,23 @@
         <img src="./images/volume-of-sphere.png" alt="sphere image" width="250" />
       </div>
       <br />
-      <div class="page-content">Please enter dimensions of the sphere:
+      <div class="page-content">Please enter the dimensions of the sphere:
         <br>
         <br>
         Formula:
         <br>
-        V = (4 / 3) x π x r³
+        V = (4 / 3) x π x r³;
       </div>
       <div class="page-content-php">
         <form action="answer.php" method="GET">
           <br />
-          <div></div>
-          <form action="#">
-            Radius:
-            <div class="mdl-textfield mdl-js-textfield">
-              <input
-                class="mdl-textfield__input"
-                type="number"
-                pattern="-?[0-9]*(\.[0-9]+)?"
-                id="radius"
-                step="0.01" />
-              <label class="mdl-textfield__label" for="radius">Radius Here ...</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-            mm
-          </form>
+          Radius:
+          <div class="mdl-textfield mdl-js-textfield">
+            <input class="mdl-textfield__input" type=" text" pattern="-?[0-9]*(\.[0-9]+)?" name="radius-entered" step="0.01">
+            <label class="mdl-textfield__label" for="radius-entered">Radius Here ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+          mm
           <br />
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
